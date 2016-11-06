@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   signUp () {
-    signIn(this.success)
+    signIn(this.success, this.failure)
   }
 
   failure (message) {
